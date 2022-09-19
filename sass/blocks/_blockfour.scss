@@ -1,0 +1,61 @@
+.blockfour {
+  margin-top: 245px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.model {
+  padding-left: 142px;
+  width: 600px;
+  .while {
+    padding-top: 25px;
+    padding-bottom: 90px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: rgba(33, 56, 66, 0.6);
+  }
+}
+.phototwo {
+  position: relative;
+}
+.lina {
+  position: absolute;
+  width: 453px;
+  height: 243px;
+  right: 330px;
+  top: 350px;
+  background: #ffffff;
+  box-shadow: 50px 50px 100px rgba(0, 0, 0, 0.145947);
+  border-radius: 8px;
+  .hart {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+  }
+  .parag {
+    padding: 30px 20px 5px 20px;
+    font-family: "Poppins";
+    font-style: italic;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #4d533c;
+  }
+  .hartt {
+    padding-bottom: 40px;
+    .lin {
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 24px;
+
+      color: #4d533c;
+    }
+    .fo {
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 21px;
+      color: #152934;
+    }
+  }
+}

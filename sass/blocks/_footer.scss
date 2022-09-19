@@ -1,0 +1,88 @@
+.footer {
+  background: #4f553d;
+  height: 900px;
+}
+.adress {
+  padding-top: 290px;
+  padding-left: 165px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  h6 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 40px;
+    color: #b6c197;
+  }
+  h5 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 40px;
+    color: #ffffff;
+  }
+  .phone {
+    padding-right: 140px;
+  }
+}
+.cherta {
+  text-align: center;
+  padding-top: 55px;
+  padding-bottom: 60px;
+}
+.linki {
+  ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+  }
+  padding-right: 160px;
+  padding-left: 160px;
+
+  h4 {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 38px;
+    text-transform: uppercase;
+
+    color: #ffffff;
+  }
+  a {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 40px;
+    color: #b6c197;
+  }
+  .feel {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+
+    color: #b6c197;
+  }
+  .info {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 38px;
+    color: #ffffff;
+  }
+  .log {
+    padding-top: 27px;
+  }
+}
+.chertatwo {
+  text-align: center;
+  padding-top: 40px;
+}
+.end {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 170px;
+  .all {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #b5c096;
+  }
+}

@@ -1,0 +1,56 @@
+.header {
+  position: relative;
+  width: 100%;
+  height: 1015px;
+  background-image: url(/img/Bitmap.jpg);
+  background-size: cover;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 160px;
+}
+
+.text {
+  margin: 230px 180px;
+  font-family: "Poppins";
+  font-style: normal;
+  color: #ffffff;
+
+  .titleone {
+    margin-top: 25px;
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 86px;
+    width: 800px;
+  }
+  .anteelo {
+    margin-top: 25px;
+    width: 800px;
+    height: 80px;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 40px;
+  }
+  .place {
+    font-size: 30px;
+    margin-left: 10px;
+  }
+}
+.logo-card {
+  position: absolute;
+  margin-left: 883px;
+
+  width: 1276px;
+  height: 227px;
+  background: #ffffff;
+  box-shadow: 50px 50px 100px rgba(0, 0, 0, 0.145947);
+  border-radius: 2px;
+}
+.cardlogo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 166px 54px 65px;
+}

@@ -1,0 +1,81 @@
+.strategy {
+  height: 725px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 165px;
+  padding-right: 165px;
+}
+.whatdo {
+ 
+  font-family: "Poppins";
+  font-style: normal;
+  .do {
+    padding-bottom: 20px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 21px;
+    color: rgba(77, 83, 60, 0.9);
+  }
+  .strat {
+    padding-bottom: 30px;
+    width: 475px;
+    height: 166px;
+   
+  }
+  .there {
+    padding-bottom: 30px;
+    width: 630px;
+    height: 108px;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 26px;
+    color: rgba(33, 56, 66, 0.6);
+  }
+  
+}
+
+.cardrod {
+  width: 474px;
+  height: 644px;
+  background: #ffffff;
+  box-shadow: 0px 100px 100px rgba(0, 0, 0, 0.145947);
+  .with {
+    width: 426px;
+    height: 200px;
+    padding: 244px 8px 200px 40px;
+    font-family: "Poppins";
+    font-style: italic;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 40px;
+    color: #4d533c;
+  }
+
+  .cardss {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .gen {
+    padding-bottom: 30px;
+    .gene {
+      font-family: "Poppins";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 22px;
+      line-height: 33px;
+      color: #4d533c;
+    }
+    .fuon {
+      font-family: "Poppins";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+      color: #152934;
+    }
+  }
+}
+
+

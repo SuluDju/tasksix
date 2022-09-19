@@ -1,0 +1,55 @@
+.blockfive {
+  margin-top: 120px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.booking {
+  padding-right: 180px;
+  .should {
+    width: 440px;
+    padding: 25px 25px 116px 0px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: rgba(33, 56, 66, 0.6);
+  }
+}
+.picturethree {
+  position: relative;
+}
+.oliver {
+  position: absolute;
+  left: 330px;
+  top: 350px;
+  width: 453px;
+  height: 240px;
+  background: #ffffff;
+  box-shadow: 50px 50px 100px rgba(0, 0, 0, 0.145947);
+  border-radius: 8px;
+  .exhibit {
+    padding: 30px 20px 0px 20px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #4d533c;
+  }
+  .eunice {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+  }
+  .name {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #4d533c;
+  }
+  .zeem {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #152934;
+  }
+}

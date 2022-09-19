@@ -1,0 +1,464 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+a {
+  color: inherit;
+  text-decoration: none; }
+
+h1, h2, h3, h4, h5, h6, p {
+  font-size: inherit; }
+
+input, button {
+  border: none;
+  font-family: inherit;
+  font-size: inherit; }
+
+.container {
+  margin-left: auto;
+  margin-right: auto; }
+  .container--fluid {
+    max-width: unset;
+    width: 100%; }
+  .container--no-padding {
+    padding: 0; }
+
+h2 {
+  font-weight: 700;
+  font-size: 46px;
+  line-height: 46px;
+  color: #4d533c; }
+
+.header {
+  position: relative;
+  width: 100%;
+  height: 1015px;
+  background-image: url(/img/Bitmap.jpg);
+  background-size: cover; }
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 160px; }
+
+.text {
+  margin: 230px 180px;
+  font-family: "Poppins";
+  font-style: normal;
+  color: #ffffff; }
+  .text .titleone {
+    margin-top: 25px;
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 86px;
+    width: 800px; }
+  .text .anteelo {
+    margin-top: 25px;
+    width: 800px;
+    height: 80px;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 40px; }
+  .text .place {
+    font-size: 30px;
+    margin-left: 10px; }
+
+.logo-card {
+  position: absolute;
+  margin-left: 883px;
+  width: 1276px;
+  height: 227px;
+  background: #ffffff;
+  box-shadow: 50px 50px 100px rgba(0, 0, 0, 0.145947);
+  border-radius: 2px; }
+
+.cardlogo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 166px 54px 65px; }
+
+.strategy {
+  height: 725px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 165px;
+  padding-right: 165px; }
+
+.whatdo {
+  font-family: "Poppins";
+  font-style: normal; }
+  .whatdo .do {
+    padding-bottom: 20px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 21px;
+    color: rgba(77, 83, 60, 0.9); }
+  .whatdo .strat {
+    padding-bottom: 30px;
+    width: 475px;
+    height: 166px; }
+  .whatdo .there {
+    padding-bottom: 30px;
+    width: 630px;
+    height: 108px;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 26px;
+    color: rgba(33, 56, 66, 0.6); }
+
+.cardrod {
+  width: 474px;
+  height: 644px;
+  background: #ffffff;
+  box-shadow: 0px 100px 100px rgba(0, 0, 0, 0.145947); }
+  .cardrod .with {
+    width: 426px;
+    height: 200px;
+    padding: 244px 8px 200px 40px;
+    font-family: "Poppins";
+    font-style: italic;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 40px;
+    color: #4d533c; }
+  .cardrod .cardss {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+  .cardrod .gen {
+    padding-bottom: 30px; }
+    .cardrod .gen .gene {
+      font-family: "Poppins";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 22px;
+      line-height: 33px;
+      color: #4d533c; }
+    .cardrod .gen .fuon {
+      font-family: "Poppins";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+      color: #152934; }
+
+.line {
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 162px; }
+
+.project {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  padding-left: 165px; }
+  .project .we {
+    width: 360px;
+    text-align: left; }
+  .project .lorem {
+    padding-right: 300px;
+    width: 670px;
+    height: 98px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: rgba(33, 56, 66, 0.6);
+    text-align: left; }
+
+.armstrong {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 105px; }
+  .armstrong .picturee {
+    position: relative; }
+    .armstrong .picturee .angel {
+      position: absolute;
+      left: 330px;
+      top: 350px;
+      width: 453px;
+      height: 243px;
+      background: #ffffff;
+      box-shadow: 50px 50px 100px rgba(0, 0, 0, 0.145947);
+      border-radius: 8px; }
+    .armstrong .picturee .history {
+      padding: 30px 30px 0px 30px;
+      font-family: "Poppins";
+      font-style: italic;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 26px;
+      color: #4d533c; }
+    .armstrong .picturee .ang {
+      display: flex;
+      justify-content: left;
+      align-items: center; }
+      .armstrong .picturee .ang .biogra {
+        padding-bottom: 35px; }
+        .armstrong .picturee .ang .biogra .ange {
+          font-weight: 700;
+          font-size: 16px;
+          line-height: 24px;
+          color: #4d533c; }
+        .armstrong .picturee .ang .biogra .fou {
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 21px;
+          color: #152934; }
+  .armstrong .case {
+    padding-right: 160px; }
+    .armstrong .case .article {
+      padding-top: 25px;
+      padding-bottom: 90px;
+      width: 430px;
+      height: 228px;
+      font-family: "Poppins";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 26px;
+      color: rgba(33, 56, 66, 0.6); }
+
+.blockfour {
+  margin-top: 245px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+
+.model {
+  padding-left: 142px;
+  width: 600px; }
+  .model .while {
+    padding-top: 25px;
+    padding-bottom: 90px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: rgba(33, 56, 66, 0.6); }
+
+.phototwo {
+  position: relative; }
+
+.lina {
+  position: absolute;
+  width: 453px;
+  height: 243px;
+  right: 330px;
+  top: 350px;
+  background: #ffffff;
+  box-shadow: 50px 50px 100px rgba(0, 0, 0, 0.145947);
+  border-radius: 8px; }
+  .lina .hart {
+    display: flex;
+    justify-content: left;
+    align-items: center; }
+  .lina .parag {
+    padding: 30px 20px 5px 20px;
+    font-family: "Poppins";
+    font-style: italic;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #4d533c; }
+  .lina .hartt {
+    padding-bottom: 40px; }
+    .lina .hartt .lin {
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 24px;
+      color: #4d533c; }
+    .lina .hartt .fo {
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 21px;
+      color: #152934; }
+
+.blockfive {
+  margin-top: 120px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+
+.booking {
+  padding-right: 180px; }
+  .booking .should {
+    width: 440px;
+    padding: 25px 25px 116px 0px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: rgba(33, 56, 66, 0.6); }
+
+.picturethree {
+  position: relative; }
+
+.oliver {
+  position: absolute;
+  left: 330px;
+  top: 350px;
+  width: 453px;
+  height: 240px;
+  background: #ffffff;
+  box-shadow: 50px 50px 100px rgba(0, 0, 0, 0.145947);
+  border-radius: 8px; }
+  .oliver .exhibit {
+    padding: 30px 20px 0px 20px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #4d533c; }
+  .oliver .eunice {
+    display: flex;
+    justify-content: left;
+    align-items: center; }
+  .oliver .name {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #4d533c; }
+  .oliver .zeem {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #152934; }
+
+.blocksix {
+  margin-top: 185px;
+  margin-bottom: 250px;
+  position: relative; }
+
+.linia {
+  text-align: center; }
+
+.zagolovok {
+  padding-top: 149px;
+  padding-left: 142px; }
+
+.box {
+  padding: 87px 170px; }
+  .box .ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none; }
+    .box .ul h3 {
+      font-weight: 500;
+      font-size: 24px;
+      line-height: 34px;
+      text-transform: uppercase;
+      color: #4d533c; }
+    .box .ul p {
+      width: 210px;
+      height: 160px;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 26px;
+      color: rgba(33, 56, 66, 0.6); }
+
+.vstavka {
+  position: absolute;
+  margin-top: 80px;
+  width: 1270px;
+  height: 360px;
+  background: #fafafa;
+  box-shadow: 50px 130px 100px rgba(0, 0, 0, 0.145947); }
+  .vstavka .let {
+    padding-top: 70px;
+    padding-bottom: 50px;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 74px;
+    padding-left: 160px;
+    color: #4D533C; }
+  .vstavka .letss {
+    padding-left: 160px;
+    font-family: 'FontAwesome';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    text-decoration-line: underline;
+    color: #D4D6D4; }
+
+.footer {
+  background: #4f553d;
+  height: 900px; }
+
+.adress {
+  padding-top: 290px;
+  padding-left: 165px;
+  display: flex;
+  justify-content: left;
+  align-items: center; }
+  .adress h6 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 40px;
+    color: #b6c197; }
+  .adress h5 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 40px;
+    color: #ffffff; }
+  .adress .phone {
+    padding-right: 140px; }
+
+.cherta {
+  text-align: center;
+  padding-top: 55px;
+  padding-bottom: 60px; }
+
+.linki {
+  padding-right: 160px;
+  padding-left: 160px; }
+  .linki ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none; }
+  .linki h4 {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 38px;
+    text-transform: uppercase;
+    color: #ffffff; }
+  .linki a {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 40px;
+    color: #b6c197; }
+  .linki .feel {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #b6c197; }
+  .linki .info {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 38px;
+    color: #ffffff; }
+  .linki .log {
+    padding-top: 27px; }
+
+.chertatwo {
+  text-align: center;
+  padding-top: 40px; }
+
+.end {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 170px; }
+  .end .all {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #b5c096; }
+
+/*# sourceMappingURL=main.css.map */
